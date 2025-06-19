@@ -73,3 +73,30 @@ img{
 img:hover{
     transform: scale(1.05);
 }
+
+.nav-menu{
+    background-color: #474747;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li::before{
+    display: none;
+}
+
+.nav-menu a{
+    color: #f2b2ff;
+    padding: 8px, 15px;
+    border-radius: 4px;
+}
+
+.nav-menu a:hover{
+    color: #fdf2ff;
+    text-decoration: none;
+}
