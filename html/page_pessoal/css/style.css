@@ -1,45 +1,8 @@
-p{
-    color: blue;
-}
-
-a{
-    color: rgb(15, 9, 75);
-}
-
-.title{
-    color: purple;
-}
-
-#bananinha{
-    color: gold;
-}
-
-[type="text"]{
-    height: 100px;
-}
-
-li{
-    color: orange;
-}
-
-
-li > p{
-    color: orange;
-}
-
-h3 + p{
-    color: gray;
-}
-
-h1{
-    color: palevioletred;
-}
-
-h1:hover{
-    color: pink;
-}
-
-button{
-    padding: 10px;
-    margin: 15px;
+body{
+    background-color: rgb(37, 34, 34);
+    max-width: 1200px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
 }
