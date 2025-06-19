@@ -50,3 +50,26 @@ li::before{
     position: absolute;
     left: 0;
 }
+
+a{
+    color: rgb(187, 121, 173);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 2s ease;
+}
+
+a:hover{
+    color: azure;
+    text-decoration: underline;
+}
+
+img{
+    border: 3px solid rgb(145, 93, 145);
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3 ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
