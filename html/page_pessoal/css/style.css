@@ -100,3 +100,9 @@ img:hover{
     color: #fdf2ff;
     text-decoration: none;
 }
+
+.contato-info{
+    background-color: #3a3737;
+    padding: 20px;
+    border-radius: 8px;
+}
