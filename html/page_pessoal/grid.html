@@ -60,8 +60,14 @@
         }
 
         @media(max-width: 720px) {
-            .footer {
-                background-color: red;
+            .grid-container {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto auto;
+                grid-template-areas:
+                    'header'
+                    'sidebar'
+                    'main'
+                    'footer';
             }
         }
     </style>
